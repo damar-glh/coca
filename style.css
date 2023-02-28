@@ -110,3 +110,14 @@ body{
     color: black;
 }
 
+@media (max-width:1150px){
+    .header .navbar a{
+        display: none;
+    }   
+}
+
+@media (min-width:1150px){
+    #menu-btn{
+        display: none;
+    }
+}
